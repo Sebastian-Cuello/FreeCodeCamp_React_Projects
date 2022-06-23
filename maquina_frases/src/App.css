@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: cornflowerblue;
+}
+
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 500px;
+  min-height: 500px;
+  background-color: aliceblue;
+  border: 2px solid red;
+  border-radius: 20px;
+}
+
+#new-quote {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 22px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
